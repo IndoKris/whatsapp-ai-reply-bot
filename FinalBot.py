@@ -13,7 +13,7 @@ os.system("open -a WhatsApp")
 time.sleep(2)
 
 # Function to check if the last message is from a specific sender
-def is_last_message_from_sender(chat_log, sender_name="Hemant Hostel"):
+def is_last_message_from_sender(chat_log, sender_name="Sender's_Name_Here"):
     messages = chat_log.strip().split("\n")  # Split by new lines
     last_message = messages[-1] if messages else ""
 
