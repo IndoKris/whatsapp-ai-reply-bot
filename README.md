@@ -1,4 +1,4 @@
-# whatsapp-ai-reply-bot
+# Whatsapp AI Reply Bot
 This program automates a chat response system for WhatsApp using a combination of Python libraries and the Gemini API by Google.
 
 Purpose:
