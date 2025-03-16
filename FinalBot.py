@@ -1,5 +1,6 @@
 import os
 import time
+import pyjokes
 import pyautogui
 import pyperclip
 import google.generativeai as genai
@@ -53,7 +54,7 @@ while True:
             reply = response.text if hasattr(response, 'text') else "Hmm... Kya bolu? 😂"
         
         except Exception as e:
-            reply = "Arre yaar 😅 "
+            reply = f"Listen this Joke : {pyjokes.get_joke()}"
 
         # Copy reply to clipboard
         pyperclip.copy(reply)
