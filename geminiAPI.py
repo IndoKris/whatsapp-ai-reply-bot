@@ -7,7 +7,7 @@ absl.logging.set_verbosity(absl.logging.ERROR)
 
 
 
-genai.configure(api_key="AIzaSyAxKfQWv_sXXFWsb2EVuLHxbXilI4QpgFg")  # Replace with your actual API key
+genai.configure(api_key="YOUR_GEMINI_API_KEY")  # Replace with your actual API key
 
 # Load the correct model
 model = genai.GenerativeModel("models/gemini-1.5-pro-002")  # Ensure this matches an available model
