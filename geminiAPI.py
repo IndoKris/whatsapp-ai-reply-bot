@@ -3,7 +3,7 @@
 
 import google.generativeai as genai
 import absl.logging
-absl.logging.set_verbosity(absl.logging.ERROR)
+
 
 
 
